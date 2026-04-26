@@ -1,0 +1,47 @@
+# --- Identity ---
+id: "42e87e6d-2446-4faf-856c-0113e56e2ca8"
+name: "weekly-report"
+display_name: "Weekly Report"
+description: "Pulls a week's emails and calendar via MCP, analyses themes and accomplishments, and generates a stakeholder-ready weekly report"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/weekly-report"
+
+# --- Discovery (Hub) ---
+category: "shared"
+tags:
+  - "mcp"
+  - "gmail"
+  - "calendar"
+  - "productivity"
+  - "reporting"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+    - "gmail-mcp"
+    - "google-calendar-mcp"
+  permissions:
+    - "network:googleapis.com"
+    - "network:console.cloud.google.com"
+  data_handling:
+    - "pii"
+
+# --- Contents ---
+contents:
+  skills: 4
+  prompts: 4
+  workflows: 1
+  services: 3
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 12
