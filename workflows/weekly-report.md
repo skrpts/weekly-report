@@ -39,9 +39,16 @@ execution:
   - skill: "report-synthesis"
     step_type: "synthesis"
     prompt: "synthesise-report"
+    context:
+      voice_profile: ""
+      report_format: ""
+      report_audience: ""
   - skill: "language-polish"
     step_type: "content"
     prompt: "polish-report"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
 ---
 
 ## Overview
