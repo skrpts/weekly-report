@@ -40,15 +40,15 @@ execution:
     step_type: "synthesis"
     prompt: "synthesise-report"
     context:
-      voice_profile: ""
-      report_format: ""
-      report_audience: ""
+      voice_profile: "Neutral professional tone"
+      report_format: "Structured markdown"
+      report_audience: "General stakeholders"
   - skill: "language-polish"
     step_type: "content"
     prompt: "polish-report"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
 ---
 
 ## Overview
