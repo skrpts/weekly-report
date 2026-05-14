@@ -3,7 +3,7 @@ id: "42e87e6d-2446-4faf-856c-0113e56e2ca8"
 name: "weekly-report"
 display_name: "Weekly Report"
 description: "Pulls a week's emails and calendar via MCP, analyses themes and accomplishments, and generates a stakeholder-ready weekly report"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=1.0.0"
 
 # --- Attribution ---
